@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
-import { getClientLocale, IntorProvider } from "intor/react";
+import { getClientLocale } from "intor";
+import { IntorProvider } from "intor/react";
 import { intorConfig } from "./intor-config";
 
 export function IntorClientProvider({ children }: { children: ReactNode }) {
